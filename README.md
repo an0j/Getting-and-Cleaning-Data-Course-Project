@@ -24,4 +24,11 @@ The R script run_analysis.R is used to create the data set. The general steps ar
 7. Appropriately label the data set with descriptive variable names.
 8. Create a second, independent tidy set with the average of each variable for each activity and each subject.
 
+## Files
+* Codebook.Md - contains the list of variables in the tidyData.txt
+* run_analysis.R - script to produce the tidyData.txt
+* README.Md - this README file
+* tidyData.txt - the tidy data set 
+
+
 
