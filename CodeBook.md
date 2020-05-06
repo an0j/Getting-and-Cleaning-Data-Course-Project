@@ -2,7 +2,7 @@
 
 # Code Book
 
-This code book summarizes the resulting data fields in tidyData.txt
+This code book summarizes the resulting variables in tidyData.txt
 
 
 ## Identifier Variables
