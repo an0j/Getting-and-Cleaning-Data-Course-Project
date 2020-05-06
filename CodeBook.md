@@ -4,6 +4,7 @@
 
 This code book summarizes the resulting data fields in tidyData.txt
 
+
 ## Identifier Variables
 
 * subject
@@ -92,3 +93,16 @@ This code book summarizes the resulting data fields in tidyData.txt
 * frequencyDomainBodyGyroscopeJerkMagnitudeStandardDeviation
 * frequencyDomainBodyGyroscopeJerkMagnitudeMeanFrequency
 
+
+## Creating the Tidy Data
+
+The R script run_analysis.R is used to create the data set. The general steps are as follows:
+
+    Download the zip file
+    Unzip the downloaded file
+    Read the text files
+    Merge the test and traning sets
+    Extract only the measurements on the mean and standard deviation for each measurement
+    Use descriptive activity names to name the activities in the data set.
+    Appropriately label the data set with descriptive variable names.
+    Create a second, independent tidy set with the average of each variable for each activity and each subject.
